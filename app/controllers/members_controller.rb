@@ -1,0 +1,2 @@
+class MembersController < BaseController
+end

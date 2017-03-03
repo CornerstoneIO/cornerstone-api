@@ -1,0 +1,2 @@
+class LocationsController < BaseController
+end

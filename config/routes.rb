@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   jsonapi_resources :organizations
   jsonapi_resources :members
   jsonapi_resources :locations
+  jsonapi_resources :beliefs
   post 'token' => 'sessions#create'
 end

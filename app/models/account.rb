@@ -4,6 +4,7 @@ class Account < ApplicationRecord
   validates_presence_of :email
   validates_presence_of :password
   validates_uniqueness_of :email
+  has_many :members
   def set_auth_token
     if self.authentication_token.blank?
       self.authentication_token = generate_authentication_token

@@ -1,0 +1,2 @@
+class BeliefsController < BaseController
+end
